@@ -1,0 +1,45 @@
+#chapter 5 
+
+sports = ['hockey' , 'baseball' , 'soccer']
+preferred_sport = 'hockey'
+answer = '28'
+correct_sport = 'hockey'
+banned_sports = ['basketball' , 'football']
+
+for sport in sports:
+    if sport == 'hockey':
+        print(sport.upper())
+    else:
+        print(sport.lower())
+
+if preferred_sport != 'baseball':
+    print('I love hockey!')
+'hockey' in preferred_sport
+
+if answer != '20':
+    print('WRONG!')
+if answer > '29':
+    print('Guess again, lower.')
+if answer < '27':
+    print('Guess again, higher.')
+if answer == '28':
+    print('CORRECT')
+else:
+    print('Wrong, Try again')
+
+if sport not in banned_sports:
+    print(sport , ", is not a banned sport.")
+
+#age testing
+age = int(input('What is your age? '))
+
+if age < 18:
+    response = 'young'
+elif age >= 40:
+    response = 'young adult'
+elif age <= 65:
+    response = 'adult'
+else:
+    response = 'elder'
+
+print('You are officially an ' + str(response) + "!")
