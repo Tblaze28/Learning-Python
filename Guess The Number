@@ -1,1 +1,13 @@
+#Guess the Number
+
+if answer != '20':
+    print('WRONG!')
+if answer > '29':
+    print('Guess again, lower.')
+if answer < '27':
+    print('Guess again, higher.')
+if answer == '28':
+    print('CORRECT')
+else:
+    print('Wrong, Try again')
 
