@@ -1,11 +1,17 @@
-family_0 = {
-    'username': 'tblaze',
-    'first_name': 'trevor',
-    'last_name': 'blaszczyk'
+family = {
+    'tblaze': {
+        'username': 'tblaze',
+        'first_name': 'trevor',
+        'last_name': 'blaszczyk',
+    },
+    'jblaze0': {
+        'user_id': 'jimblaze',
+        'password': 'Strike3!'
+    }
 }
-for key, value in family_0.items():
-    print("\n Key : " + key)
-    print("Value : " + value)
+for key, value in family.items():
+    print("\n User : " + str(key))
+    print("Account Info : " + str(value))
 
 favorite_player = {
     'jimmy': 'Hossa',
@@ -18,19 +24,10 @@ best_answer = ['banj','pev']
 for name in favorite_player.keys():
     print(name.title())
 
-if name in best_answer:
+for name in best_answer:
     print("Howdy " + name.title() +
           ", " + favorite_player[name].title()
           + " is the best player, you're right.")
     
-
-
-# Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.
-#
-# On branch main
-# Your branch is up to date with 'origin/main'.
-#
-# Changes to be committed:
-#	new file:   Chapter 6.py
-#
+if 'jimmy' not in best_answer:
+    print("Jimmy, your player stinks.")
