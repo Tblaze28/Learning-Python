@@ -23,7 +23,7 @@ else:
     print("\tShort fella are you?")
 number = input("What is your favorite number?")
 number = int(number)
-if number % 10 ==0:
-    print("ah, divisible by 10, nice, clean number."),
+if number % 2 ==0:
+    print("ah, divisible by 2, nice, clean number."),
 else:
     print("An uglier number, but to each their own.")
