@@ -13,6 +13,7 @@
     #if message != 'quit':
         #print(message)
 
+#Input City Loop
 prompt = "\n Enter the name of a city you've been to!"
 prompt += "\n'quit' to stop\t"
 
@@ -23,7 +24,8 @@ while True:
         break
     else:
         print("I'd love to go to " + city.title() + " someday!")
-    
+
+#counting loop skipping numbers
 current_number = 0
 while current_number < 10:
     current_number += 1
@@ -31,3 +33,9 @@ while current_number < 10:
         continue
 
     print(current_number)
+
+#counting Loop
+x = 1
+while x <5:
+    print(x)
+    x += 1
