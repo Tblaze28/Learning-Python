@@ -31,3 +31,13 @@ for name in best_answer:
     
 if 'jimmy' not in best_answer:
     print("Jimmy, your player stinks.")
+
+        
+if 'jimmy' not in best_answer:
+    print("Jimmy, your player stinks.")
+
+favorite_player['jimmy'] = input("Is this your final answer Jimmy? Answer this with your change if needed.")
+if favorite_player['jimmy'] == 'yes':
+    print("You are still wrong Jimmy... Sad")
+else:
+    print("Looks like you've chosen someone new, he's a way better choice.")
