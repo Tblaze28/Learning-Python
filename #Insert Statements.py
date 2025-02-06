@@ -15,12 +15,14 @@ if age >= 18:
     print("\tYou're old enough to vote!"),
 else:
     print("\tYou're too young to vote!")
+
 height = input("\nHow tall are you? (in inches)\t")
 height = int(height)
 if height >= 70:
     print("\tWoah, do you play basketball?")
 else:
     print("\tShort fella are you?")
+
 number = input("What is your favorite number?")
 number = int(number)
 if number % 2 ==0:

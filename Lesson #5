@@ -33,7 +33,7 @@ if sport not in banned_sports:
 #age testing
 age = int(input('What is your age? '))
 
-if age < 18:
+if age <= 18:
     response = 'young'
 elif age >= 40:
     response = 'young adult'
